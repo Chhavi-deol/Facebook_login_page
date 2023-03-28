@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="icon" type="x-icon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="layer">
+
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="top-left">
+                <img src="images/facebook.png">
+            </div>
+            <div class="down-left">
+                <p>Facebook helps you connect and share <br> with the people in your life.</p>
+
+            </div>
+
+
+        </div>
+        <div class="right">
+            <form class="login-form" onsubmit=" return validation()" action="login.php">
+                <div class="form-group">
+                    <input type="text" id="name" class="form-control" placeholder="Email or phone Number" name="email">
+                    <span id="errmail"></span>
+                    
+                </div>
+                
+                
+
+                <div class="form-group">
+                    <input type="password" id="pass" class="form-control" placeholder="Password" name="pass" >
+                    <span id="errpass"></span>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn" >Log in</button>
+                </div>
+                <div class="Fpass">
+                    <p>Forgotten Password?</p>
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+                <div class="account">
+                  <button type="button" class="btn1" id="btn1">Create new account</button>
+
+                </div>
+            </form>
+            <div class="brand">
+                <p><b><a href="#"> Create a Page</a> </b>for a celebrity, brand or business.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="sign-up" id="Sign">
+        <div class="top">
+            <div class="close" id="close">&#9747;</div>
+            <div class="main">
+                <h1>Sign Up</h1>
+                <p>It's quick and easy</p>
+            </div>
+            <hr class="hr1">
+            <div class="form">
+                <form>
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder=" Last name" required>
+                    <input type="tel" class="Mobile" placeholder="Mobile Number or Email Address">
+                    <input type="password" class="Mobile" placeholder="New Password"><br><br>
+                    <label>Date of birth?</label><br>
+                    <select name="dob" id="dob">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7" selected>7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+
+                    </select>
+                    <select name="dob" id="dob">
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="March" selected>March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="OCT">Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+
+                    </select>
+                    <select name="dob" id="dob">
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023" selected>2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+
+                    </select><br>
+                    <label>Gender ?</label><br>
+                    <div class="gender">
+                        <div class="Female">
+                            <label for="Female">Female<input type="radio" name="gender" class="oth"></label>
+                        </div>
+                        <div class="Male">
+                            <label for="Male">Male<input type="radio" name="gender" class="oth"></label>
+                        </div>
+                        <div class="Other">
+                            <label for="Other">Other<input type="radio" name="gender" class="oth"></label><br>
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>People who use our service may have uploaded your contact information to Facebook. <a
+                                href="#">Learn more.</a></p><br>
+                        <p>By clicking Sign Up, you agree to our <a href="#">Terms, Privacy Policy</a> and Cookies
+                            Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+
+                    </div>
+                    <div class="">
+                        <input type="button" value="Sign Up" name="btn" class="btn2">
+
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    
+      
+    
+   
+    <script>
+        document.getElementById('btn1').addEventListener ("click", show);
+        document.getElementById('close').addEventListener ("click", hide);
+        // document.getElementById('btn1').addEventListener("click",layer);
+        
+
+
+        function show() {
+            document.getElementById("Sign").style.display = "block";
+            document.getElementById("layer").style.display ="block";
+             }
+        //      function layer() {
+        //     document.getElementById("layer").style.display ="block";
+        //  }
+           
+        function hide() {
+            document.getElementById("Sign").style.display = "none";
+            document.getElementById("layer").style.display ="none";
+
+         }
+        
+            
+           
+           
+    </script>
+   <script src="script/script1.js"></script>
+
+
+
+
+
+</body>
+
+</html>

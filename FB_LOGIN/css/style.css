@@ -1,0 +1,363 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding-left: 10vw;
+    padding-top: 25vh;
+    position: relative;
+    background-color: whitesmoke;
+    display: block;
+    
+
+}
+
+.left {
+    width: 35vw;
+    height: 35vh;
+
+
+}
+
+.top-left {
+    width: 35vw;
+    height: 20vh;
+    padding: 10px;
+}
+
+.top-left img {
+    height: 25vh;
+    width: 20vw;
+    align-items: center;
+    color: dodgerblue;
+}
+
+.down-left {
+    height: 15vh;
+    width: 35vw;
+}
+
+.down-left p {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 27px;
+
+}
+
+.right {
+    width: 30vw;
+    height: 60vh;
+    position: absolute;
+    top: 0%;
+    left: 60vw;
+    top: 20vh;
+}
+
+.login-form {
+    border: 2px;
+    border-radius: 10px;
+    background-color: white;
+    height: 60vh;
+    width: 30vw;
+}
+
+.form-group {
+    width: 30vw;
+    height: 5vh;
+    margin-top: 15px;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.form-control {
+    width: 20vw;
+    height: 5vh;
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 20vw;
+    height: 5vh;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: dodgerblue;
+    border: 2px;
+    border-radius: 6px;
+    height: 8vh;
+    color: white;
+    cursor: pointer;
+
+}
+
+.Fpass {
+    height: 5vh;
+    width: 20vw;
+    padding: 20px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    text-align: center;
+}
+
+.Fpass p {
+    color: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hr {
+    width: 20vw;
+    height: 2vh;
+    position: relative;
+    top: 45px;
+    left: 60px;
+    align-items: center;
+}
+
+::placeholder {
+    font: 15px/3 sans-serif;
+
+}
+
+::placeholder:focus {
+    color: red;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid green;
+    box-shadow: 0 0 10px paleturquoise;
+    color: green;
+}
+
+
+
+
+
+.account {
+    width: 15vw;
+    height: 5vh;
+    position: relative;
+    top: 60px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.account .btn1 {
+    width: 15vw;
+    height: 8vh;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: green;
+    border: 2px;
+    border-radius: 6px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    float: right;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.brand {
+    width: 30vw;
+    height: 10vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.sign-up {
+    height: 550px;
+    width: 450px;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    left: 35vw;
+    position: absolute;
+    top: 10vh;
+    border: 2px grey;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    box-shadow: 0 1px 1px 0 grey;
+    display: none;
+    z-index: 2222;
+
+
+}
+
+
+.hr1 {
+    width: 36.33vw;
+    height: 1px;
+    left: 0px;
+    right: 65px;
+}
+
+.top {
+    width: 400px;
+}
+
+.main p {
+    font-size: 18px;
+    font: 500;
+    color: grey;
+}
+
+.main {
+    padding-left: 10px;
+}
+
+.close {
+    float: right;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 0%;
+    position: relative;
+    left: 30px;
+
+}
+
+.form {
+    position: absolute;
+    top: 20%;
+    padding: 5px;
+
+}
+
+.form input {
+    padding: 12px;
+    width: 215px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.form .Mobile {
+    width: 430px;
+    margin-top: 10px;
+
+}
+
+i::placeholder {
+    background-color: grey;
+}
+
+input {
+    background: rgba(245, 245, 245, 0.884);
+}
+
+#dob {
+    width: 130px;
+    height: 38px;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+
+}
+
+.gender {
+    width: 36vw;
+    height: 8vh;
+}
+
+.Female {
+
+    width: 11vw;
+    border: 1px solid grey;
+    border-radius: 3px;
+    position: relative;
+    top: 1vh;
+   padding-left: 5px;
+}
+
+.Male {
+
+    width: 11vw;
+    bottom: 2vh;
+    position: absolute;
+    left: 12vw;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding-left: 5px;
+   
+
+}
+
+.Other {
+    width: 11vw;
+    padding-left: 5px;
+    position: absolute;
+    left: 24vw;
+    bottom: 2vh;
+    border: 1px solid grey;
+    border-radius: 3px;
+   
+}
+
+.radio {
+    top: 10vh;
+    margin: 0px;
+    padding: 0px;
+}
+.oth:focus{
+    outline: none !important;
+    box-shadow: 0 0 0px paleturquoise;
+    
+}
+.oth{
+    position: relative;
+bottom: 10px;
+}
+.para{
+    width: 415px;
+    height: 2px;
+    }
+    .para p{
+        font-size: 14px;
+        color: grey;
+    }
+    .btn2{
+        width: 10vw;
+        height: 7vh;
+        background-color: green;
+        position: absolute;
+        top: 64vh;
+        left: 10vw;
+        padding: 15px;
+        color: white;
+        font-weight: 800;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    #errmail{
+        color: red;
+        float: right;
+         }
+         #errpass{
+            color: red;
+        float: right;
+         }
+         #layer{
+            width: 100%;
+            height: 100vh;
+            background-color: #fff;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 22;
+            opacity: 0.5;
+            display: none;
+         }
+        

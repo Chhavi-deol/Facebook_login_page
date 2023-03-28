@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: gainsboro;
+    padding-top: 5%;
+    padding-left: 40%;
+    left: 70px;
+
+}
+
+.login-box {
+    width: 30vw;
+    height: 80vh;
+    background-color: blue;
+    left: 40px;
+
+}
+
+.close {
+    width: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+    body {
+        background-color: red;
+    }
+
+    .container {
+        background-color: brown;
+    }
+
+    .login-box {
+        width: 50vw;
+        height: 50vh;
+        align-items: center;
+        padding: 20px;
+        margin: auto;
+        position: absolute;
+        padding-left: 30vw;
+        background-color: blueviolet;
+    }
+
+
+}
+table,th,td,tr{
+    border: 2px solid red;
+    border-collapse: collapse;
+
+}
+table{
+    padding: 10px;
+    margin-left: 40vw;
+    float: left;
+   
+}
+tr,th,td{
+    padding: 10px;
+}
+th{
+    background-color: grey;
+}
+tr:nth-child(odd){
+    background-color:goldenrod ;
+}
+tr:nth-child(even){
+    background-color: brown;
+}
+@media screen and (max-width:480px) {
+    tr:nth-child(even){
+        background-color: chartreuse;
+    }
+    table{
+        margin-left: 10vw;
+
+    };
+    
+}
